@@ -1,0 +1,280 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* real_estate_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-12 10:17+0000\n"
+"PO-Revision-Date: 2017-12-20 01:23-0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Box room"
+msgstr "hangar"
+
+#. module: real_estate_crm
+#: view:res.company:real_estate_crm.view_company_form_real_estate_crm
+msgid "CRM Configuration"
+msgstr "Configuration CRM"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,crm_id:0
+msgid "CRM Lead"
+msgstr "Prospect"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+#: selection:crm.lead,estate:0
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Chalet"
+msgstr "Chalet"
+
+#. module: real_estate_crm
+#: model:ir.model,name:real_estate_crm.model_res_company
+msgid "Companies"
+msgstr "Entreprises"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,create_uid:0
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,create_date:0
+msgid "Created on"
+msgstr "Créé par"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,display_name:0
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+#: selection:crm.lead,estate:0
+msgid "Done"
+msgstr "Fait"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+#: selection:crm.lead,estate:0
+msgid "Draft"
+msgstr "Brouillion"
+
+#. module: real_estate_crm
+#: field:crm.lead,elevator:0
+msgid "Elevator"
+msgstr "Ascenseur"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Flat"
+msgstr "Apartement"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Hotel Industry"
+msgstr "Hotel"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Industrial Unit"
+msgstr "Nave Industrial"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,interested:0
+msgid "Interested"
+msgstr "Interessé"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Land"
+msgstr "Terrain"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,__last_update:0
+msgid "Last Modified on"
+msgstr "Modifié le"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,write_uid:0
+msgid "Last Updated by"
+msgstr "Mise à jour le"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+msgid "Lead"
+msgstr "Prospect"
+
+#. module: real_estate_crm
+#: model:ir.model,name:real_estate_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Prospect/Opportunité"
+
+#. module: real_estate_crm
+#: field:crm.lead,m2:0
+msgid "M2"
+msgstr "M2"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Office"
+msgstr "Bureau"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+#: selection:crm.lead,estate:0
+msgid "Open"
+msgstr "Ouvrir"
+
+#. module: real_estate_crm
+#: field:crm.lead,operation:0
+msgid "Operation"
+msgstr "Operation"
+
+#. module: real_estate_crm
+#: field:crm.lead,parking:0 selection:crm.lead,top_type:0
+msgid "Parking"
+msgstr "Garage"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+#: selection:crm.lead,estate:0
+msgid "Pending"
+msgstr "En cours"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Premise"
+msgstr "Local"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Premise-Office"
+msgstr "Local-Oficina"
+
+#. module: real_estate_crm
+#: field:crm.lead,prepared:0
+msgid "Prepared"
+msgstr "Preparé"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+msgid "Real Estate"
+msgstr "Immobilier"
+
+#. module: real_estate_crm
+#: field:res.company,realestate_template:0
+msgid "Realestate template"
+msgstr "Immobilier modèl"
+
+#. module: real_estate_crm
+#: selection:crm.lead,operation:0
+msgid "Rent"
+msgstr "Louer"
+
+#. module: real_estate_crm
+#: field:crm.lead,rent_price:0
+msgid "Rent Price"
+msgstr "Prix du loyer"
+
+#. module: real_estate_crm
+#: selection:crm.lead,operation:0
+msgid "Rent with sale option"
+msgstr "Location avec option d'achat"
+
+#. module: real_estate_crm
+#: selection:crm.lead,operation:0
+msgid "Sale"
+msgstr "Vente"
+
+#. module: real_estate_crm
+#: selection:crm.lead,operation:0
+msgid "Sale & Rent"
+msgstr "Vente et location"
+
+#. module: real_estate_crm
+#: field:crm.lead,sale_price:0
+msgid "Sale Price"
+msgstr "Prix d'achat"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Shop"
+msgstr "Boutique"
+
+#. module: real_estate_crm
+#: field:crm.lead,estate:0
+msgid "Estate"
+msgstr "Etat"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,name:0
+msgid "Top"
+msgstr "Propriété"
+
+#. module: real_estate_crm
+#: view:crm.lead:real_estate_crm.crm_case_form_view_oppor_real_estate
+#: field:crm.lead,top_suggested_ids:0
+#: view:crm.top.suggested:real_estate_crm.crm_top_suggested_tree_view
+msgid "Tops Suggested"
+msgstr "Propriété suggerée"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "Town House"
+msgstr "maison de ville"
+
+#. module: real_estate_crm
+#: selection:crm.lead,operation:0
+msgid "Transfer"
+msgstr "Transferer"
+
+#. module: real_estate_crm
+#: field:crm.lead,top_type:0
+msgid "Type"
+msgstr "Type"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,write_date:0
+msgid "Update Date"
+msgstr "Mettre à jour la date"
+
+#. module: real_estate_crm
+#: field:crm.top.suggested,updated:0
+msgid "Updated"
+msgstr "Mise à jour"
+
+#. module: real_estate_crm
+#: selection:crm.lead,operation:0
+msgid "Valuation"
+msgstr "évaluation"
+
+#. module: real_estate_crm
+#: field:crm.lead,zone_ids:0
+msgid "Zones"
+msgstr "Zones"
+
+#. module: real_estate_crm
+#: selection:crm.lead,top_type:0
+msgid "unlimited"
+msgstr "illimité"

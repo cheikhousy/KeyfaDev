@@ -1,0 +1,53 @@
+<odoo>
+    <template id='hello' name="hello world">
+        <t t-call="website.layout">
+
+            <h1>Hello world !</h1>
+        </t>
+    </template>
+
+     <template id='assets_frondend' name="todo_website_assets">
+         <xpath expr="." position="inside">
+             <link rel="stylesheet" type="text/css" href="/todo_website/static/src/css/index.css"/>
+         </xpath>
+
+    </template>
+
+    <template id='index' name="Todo List">
+        <t t-call="website.layout">
+            <div id="wrap" class="'container">
+                <h1> Todo Tasks</h1>
+                <t t-foreach="tasks" t-as="task">
+                    <div class="row">
+                        <input type="checkbox" disabled="True" t-att-checked=" 'checked' if task.is_done else {} "/>
+                        <a t-attf-href="/todo/{{slug(task)}}">
+                            <span t-field="task.name" t-att-class="'todo-app-done' if task.is_done else '' "/>
+
+                        </a>
+                    </div>
+                </t>
+
+                <div class="row">
+                    <a href="/todo/add" class="btn btn-primary btn-lg">
+                        add
+                    </a>
+                </div>
+
+
+            </div>
+        </t>
+    </template>
+
+    <template id="detail" name="Todo Task Detail">
+        <t t-call="website.layout">
+            <div id="wrap" class="container">
+                <h1 t-field="task.name" />
+                <p>Responsible:<span t-field="task.user_id"/></p>
+                <p>deadline:<span t-field="task.deadline"/></p>
+            </div>
+
+        </t>
+    </template>
+
+
+</odoo>

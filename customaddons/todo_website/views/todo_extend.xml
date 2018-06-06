@@ -1,0 +1,14 @@
+<odoo>
+    <template id='hello Extented' name="hello world Extended"
+    inherit_id="todo_website.hello">
+        <xpath expr="//h1" position="replace">
+
+            <h1>Hello  <t t-esc="name or 'Someone'"></t></h1> !
+
+        </xpath>
+
+
+    </template>
+
+
+</odoo>
