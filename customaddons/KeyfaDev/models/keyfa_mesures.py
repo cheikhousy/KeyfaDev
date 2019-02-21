@@ -36,7 +36,7 @@ class keyfa_mesure(models.Model):
     Broderie   = fields.Selection((('ton_sur_ton','TON SUR TON'),('leg_ton_ton','LEGEREMENT TON SUR TON'),
                               ('flashy','FLASHY')))
 
-
+#test
 
 
 
