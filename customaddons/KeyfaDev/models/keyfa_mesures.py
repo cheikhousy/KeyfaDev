@@ -76,6 +76,7 @@ class Sale_order_line(models.Model):
             'mesures': self.order_partner_id.mesures and self.order_partner_id.mesures or False,
         }
         self.update(values)
+    return values
 
 
 
